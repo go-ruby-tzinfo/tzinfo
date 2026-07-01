@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.go text eol=lf
+
+# The embedded IANA tz database is a binary zip; never touch its bytes.
+internal/tzdata/tzdata.zip binary
